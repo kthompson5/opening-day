@@ -1,0 +1,23 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Thompson Family MLB Pick 'Em</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <h1>Thompson Family MLB Opening Day Pick 'Em</h1>
+    <form id="pickemForm">
+        <h2>March 27 Games</h2>
+        Yankees vs Astros: <select id="game1"><option>Yankees</option><option>Astros</option></select><br>
+        Cubs vs Rangers: <select id="game2"><option>Cubs</option><option>Rangers</option></select><br>
+        <h2>March 30 - Big Game (6 Points!)</h2>
+        Padres vs Braves: <select id="bigGame"><option>Padres</option><option>Braves</option></select><br>
+        <button type="button" onclick="savePicks()">Submit Picks</button>
+    </form>
+    <a href="leaderboard.html">View Leaderboard</a>
+    <audio id="batCrack" src="assets/img/bat-crack.mp3"></audio>
+    <script src="assets/js/pickem.js"></script>
+</body>
+</html>

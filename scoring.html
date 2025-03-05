@@ -1,0 +1,19 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Enter Game Results</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <h1>Game Results Entry (Commissioner Only)</h1>
+    <form id="resultsForm">
+        Yankees vs Astros: <select id="result1"><option>Yankees</option><option>Astros</option></select><br>
+        Cubs vs Rangers: <select id="result2"><option>Cubs</option><option>Rangers</option></select><br>
+        Padres vs Braves: <select id="bigResult"><option>Padres</option><option>Braves</option></select><br>
+        <button type="button" onclick="saveResults()">Save Results</button>
+    </form>
+    <script src="assets/js/scoring.js"></script>
+</body>
+</html>
